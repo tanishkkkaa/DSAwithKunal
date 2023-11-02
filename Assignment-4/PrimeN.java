@@ -15,8 +15,7 @@ public class PrimeN{
             if (n%i==0){
                 count++;
                 break;
-            }
-            
+            }  
         }
         if(count==0){
             System.out.println(n + " " + "is a" + " " + "Prime number");
